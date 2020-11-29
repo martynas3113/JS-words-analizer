@@ -13,23 +13,11 @@ Isspausdinti lentele:
 */
 
 
-import { text } from './data/tekstaiData.js';
-import { paragCount } from './components/paragTotal/paragCount.js';
-import { sentCount } from './components/sentenceCount/sentCount.js';
-import { symbolCount } from './components/symbolsCount/symbolsCount.js';
-import { wordCount } from './components/wordCount/wordCount.js';
-import { letterCount } from './components/letterCount/letterCount.js';
-import { numbersCount } from './components/numbersCount/numbersCount.js';
 
-console.log();
+import { generatedHTML } from './generateHTML.js';
 
-console.log(`Viso dokumente yra:
-    paragrafai: ${paragCount(text)}
-    sakiniai: ${sentCount(text)}
-    zodziai: ${wordCount(text) }
-    tekstiniai simboliai (iskaitant tarpus): ${symbolCount(text)} 
-    raidziu: ${letterCount(text)}
-    skaiciu: ${numbersCount(text)}
-    tikriniu zodziu:  `);
+generatedHTML();
+
+
 
 

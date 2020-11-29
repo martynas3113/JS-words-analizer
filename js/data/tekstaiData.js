@@ -1,2 +1,2 @@
-const text = document.querySelectorAll('p')
+const text = document.querySelectorAll('.left > p')
 export { text };
