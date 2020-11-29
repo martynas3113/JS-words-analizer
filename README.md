@@ -6,5 +6,5 @@
 ## Project features
 - module design
 - javascript generated html content
-- Can take text from whole html document
-- All parameters in separate folder
+- can take text from whole html document
+- all parameters in separate folder
