@@ -3,6 +3,8 @@
 
 # Words analizer made using Javascript.
 
+Text aalyzer, that shows text structure of page (How many words,sentences,symbols,letters and etc.)
+
 ## Project features
 - module design
 - javascript generated html content
